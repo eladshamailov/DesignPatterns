@@ -1,0 +1,9 @@
+I'm a dog and my name is: shuki
+I'm a mouse and my name is: mikey
+I'm a shark and my name is: roni
+
+Dog: I can run
+Mouse: I can run
+Shark: I can't run
+After dynamic changes for Run
+Shark: I can run
