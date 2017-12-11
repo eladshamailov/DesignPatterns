@@ -1,0 +1,75 @@
+New Client Observer 0
+Milk price has changed!
+Client number 0
+ Milk: 5.8
+ Bread: 0.0
+ Meat: 0.0
+
+Bread price has changed!
+Client number 0
+ Milk: 5.8
+ Bread: 4.7
+ Meat: 0.0
+
+Meat price has changed!
+Client number 0
+ Milk: 5.8
+ Bread: 4.7
+ Meat: 90.2
+
+New Client Observer 1
+Milk price has changed!
+Client number 0
+ Milk: 10.0
+ Bread: 4.7
+ Meat: 90.2
+
+Client number 1
+ Milk: 10.0
+ Bread: 4.7
+ Meat: 90.2
+
+Bread price has changed!
+Client number 0
+ Milk: 10.0
+ Bread: 10.0
+ Meat: 90.2
+
+Client number 1
+ Milk: 10.0
+ Bread: 10.0
+ Meat: 90.2
+
+Meat price has changed!
+Client number 0
+ Milk: 10.0
+ Bread: 10.0
+ Meat: 20.0
+
+Client number 1
+ Milk: 10.0
+ Bread: 10.0
+ Meat: 20.0
+
+Observer 2 deleted
+Milk price has changed!
+Client number 0
+ Milk: 1.6
+ Bread: 10.0
+ Meat: 20.0
+
+Bread price has changed!
+Client number 0
+ Milk: 1.6
+ Bread: 2.0
+ Meat: 20.0
+
+Meat price has changed!
+Client number 0
+ Milk: 1.6
+ Bread: 2.0
+ Meat: 74.57
+
+Observer 1 deleted
+
+Process finished with exit code 0
