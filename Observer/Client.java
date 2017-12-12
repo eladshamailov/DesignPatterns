@@ -2,9 +2,9 @@
 
 public interface Client {
 
-    public void register(Observer o);
+    public void addClient(Observer o);
 
-    public void unregister(Observer o);
+    public void removeClient(Observer o);
 
     public void notifyTheClients();
 }
