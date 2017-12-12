@@ -14,7 +14,7 @@ public class StoreObserver implements Observer {
         this.clientObserverId = numOfClients;
         numOfClients++;
         System.out.println("New Client Observer " + this.clientObserverId);
-        client.register(this); //Add the client to the array list of the price followers.
+        client.addClient(this); //Add the client to the array list of the price followers.
     }
 
     public void update(double milkPrice, double breadPrice, double meatPrice) {
