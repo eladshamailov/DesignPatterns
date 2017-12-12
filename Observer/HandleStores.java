@@ -14,11 +14,11 @@ public class HandleStores implements Client {
         observers = new ArrayList<Observer>();
     }
 
-    public void register(Observer newObserver) {
+    public void addClient(Observer newObserver) {
         observers.add(newObserver);
     }
 
-    public void unregister(Observer deleteMe) {
+    public void removeClient(Observer deleteMe) {
         int deleteIndex = observers.indexOf(deleteMe);
         System.out.println("Observer " + (deleteIndex+1) + " deleted");
         observers.remove(deleteIndex);
