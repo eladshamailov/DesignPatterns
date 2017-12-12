@@ -1,0 +1,11 @@
+Warrior was created with villainFactory!
+I can use my special sword!
+it's my sword power!
+
+Sniper was created with villainFactory!
+I can use my sniper rifle!
+sniper rifle shoot shoot!
+
+Magician was created with villainFactory!
+I can use magic!
+taste the magic!
