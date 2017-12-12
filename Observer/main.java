@@ -6,7 +6,7 @@ public class main {
     /*Let's say that we have a few supermarkets that wishes to know some of their competitors prices,
       and match their prices according to the newest supermarket that has joined the app.
       At this project, we wil represent them as Clients of our app.
-      They will be able to register to our app,unregister and notify other companies about their prices.
+      They will be able to add client to our app,remove client and notify other companies about their prices.
       After they will register, and change the prices, they will use the update method of the ObserverPack.Observer interface,
       this method will update the values and print them to all the registered clients.
     */
@@ -25,12 +25,12 @@ public class main {
         handleStore.setMeatPrice(20.00);
 
         // Delete one of the observers
-        handleStore.unregister(observer2);
+        handleStore.removeClient(observer2);
 
         handleStore.setMilkPrice(1.60);
         handleStore.setBreadPrice(2.00);
         handleStore.setMeatPrice(74.57);
 
-        handleStore.unregister(observer1);
+        handleStore.removeClient(observer1);
     }
 }
