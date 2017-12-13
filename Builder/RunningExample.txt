@@ -1,0 +1,4 @@
+Two brands of cars were made by using the Builder design pattern:
+A Car was made of the following parts: Engine: Mustang D-code, 5.0L V8 , Wheels: Silver AMR Wheels 2018, Gear: Manual , Car color: Red
+A Car was made of the following parts: Engine: Mazda Engn 3.5L, V6 , Wheels: Black TBS Wheels 1997, Gear: Automatic , Car color: Green
+
