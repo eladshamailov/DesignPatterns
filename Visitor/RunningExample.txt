@@ -1,0 +1,17 @@
+Regular game prices:
+A Match against the Premium team Maccabi Haifa! Expected income: 
+3200000
+A Match against the Medium team Hapoel Petach Tikva! Expected income: 
+290440
+A Match against the Small team Hapoel Marmorek! Expected income: 
+15577
+----------------------------------------------
+Important game prices:
+A Match against the Premium team Maccabi Haifa! Expected income: 
+6400000
+A Match against the Medium team Hapoel Petach Tikva! Expected income: 
+580880
+A Match against the Small team Hapoel Marmorek! Expected income: 
+31154
+
+
