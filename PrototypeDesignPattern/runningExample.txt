@@ -1,0 +1,6 @@
+magician id: 6 clone id: 6
+magician hashCode: 1735600054 clone hashCode: 21685669
+sniper id: 65 clone id: 65
+sniper hashCode: 2133927002 clone hashCode: 1836019240
+warrior id: 81 clone id: 81
+warrior hashCode: 325040804 clone hashCode: 1173230247
