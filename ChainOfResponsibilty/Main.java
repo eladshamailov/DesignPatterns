@@ -1,8 +1,11 @@
 package ChainOfResponsibilityPack;
 
 /**
- * Created by Tal on 16/12/2017.
+We will simulate a costumer service system , which gets problems and according to the diffcult of the problem,
+the matching employ will solve it.
+If a low level employee sees that the problem is too hard for him, he delegate it to the upper level, and so on.
  */
+
 public class Main {
     public static void main(String []args) {
         LowLevelEmployee emp1 = new LowLevelEmployee();
