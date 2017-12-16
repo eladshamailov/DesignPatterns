@@ -1,4 +1,8 @@
 public class Main {
+    /*
+    We create a magicin, sniper and warrior. We want to clone them and get the same id's and content , while 
+    each one of them will be stored in his own memory location.
+    */
 
     public static void main(String[]args){
         //creates CloneFactory
