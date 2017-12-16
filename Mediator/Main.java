@@ -1,6 +1,11 @@
 package MediatorPack;
 
 public class Main {
+    /*
+    This program illustarte an auction. The AuctionMediator is responsible for adding the buyers,
+    and afer each buyer bid a certain amount for the item, the mediator know who won the auction.
+    */
+    
     public static void main(String []args){
 
         AuctionMediator med = new AuctionMediator();
