@@ -1,0 +1,7 @@
+Empty shopping cart is for free
+Added Shirt to the cart, the price is: 20
+Added Coat to the cart, the price is: 30
+Added Pants to the cart, the price is 60
+
+Items in the shopping cart:Shirt, Coat, Pants
+The price of the shopping cart is: 110
