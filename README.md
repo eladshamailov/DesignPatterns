@@ -23,5 +23,24 @@ In object-oriented design, the chain-of-responsibility pattern is a design patte
 In object-oriented programming, the command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time. This information includes the method name, the object that owns the method and values for the method parameters. [Credit to wikipedia](https://en.wikipedia.org/wiki/Command_pattern)
 
 ## Composite design pattern
+In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly. [Credit to wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
+
+## Decorator design pattern
+In software engineering, the composite pattern is a partitioning design pattern. The composite pattern describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to "compose" objects into tree structures to represent part-whole hierarchies. Implementing the composite pattern lets clients treat individual objects and compositions uniformly. [Credit to wikipedia](https://en.wikipedia.org/wiki/Composite_pattern)
+
+## Facade design pattern
+The facade pattern (also spelled façade) is a software design pattern commonly used with object-oriented programming. The name is an analogy to an architectural façade.
+
+A facade is an object that provides a simplified interface to a larger body of code, such as a class library. A facade can
+
+* make a software library easier to use, understand, and test, since the facade has convenient methods for common tasks,
+* make the library more readable, for the same reason,
+* reduce dependencies of outside code on the inner workings of a library, since most code uses the facade, thus allowing more flexibility in developing the system,
+* wrap a poorly designed collection of APIs with a single well-designed API.
+[Credit to wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
+
+## Factory design pattern
+In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor. [Credit to wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern)
+
 
 
