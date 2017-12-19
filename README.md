@@ -1,2 +1,27 @@
 # DesignPatterns
-Design patterns implementation
+implantation of design patterns.
+
+## Intro
+implantation in java of common design patterns. all the code is commented to make your learning easier.
+
+## Abstract Factory design pattern
+The abstract factory pattern provides a way to encapsulate a group of individual factories that have a common theme without specifying their concrete classes.In normal usage, the client software creates a concrete implementation of the abstract factory and then uses the generic interface of the factory to create the concrete objects that are part of the theme. The client doesn't know (or care) which concrete objects it gets from each of these internal factories, since it uses only the generic interfaces of their products.[1] This pattern separates the details of implementation of a set of objects from their general usage and relies on object composition, as object creation is implemented in methods exposed in the factory interface. [Credit to wikipedia](https://en.wikipedia.org/wiki/Abstract_factory_pattern)
+
+## Adapter design pattern
+In software engineering, the adapter pattern is a software design pattern (also known as Wrapper, an alternative naming shared with the Decorator pattern) that allows the interface of an existing class to be used as another interface.It is often used to make existing classes work with others without modifying their source code. An example is an adapter that converts the interface of a Document Object Model of an XML document into a tree structure that can be displayed. [Credit to wikipedia](https://en.wikipedia.org/wiki/Adapter_pattern)
+
+## Bridge design pattern
+The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently", introduced by the Gang of Four.The bridge uses encapsulation, aggregation, and can use inheritance to separate responsibilities into different classes.  [Credit to wikipedia](https://en.wikipedia.org/wiki/Bridge_pattern)
+
+## Builder design pattern
+The builder pattern is an object creation software design pattern. Unlike the abstract factory pattern and the factory method pattern whose intention is to enable polymorphism, the intention of the builder pattern is to find a solution to the telescoping constructor anti-pattern citation needed that occurs when the increase of object constructor parameter combination leads to an exponential list of constructors. Instead of using numerous constructors, the builder pattern uses another object, a builder, that receives each initialization parameter step by step and then returns the resulting constructed object at once. [Credit to wikipedia](https://en.wikipedia.org/wiki/Builder_pattern)
+
+## Chain of Responsibility design pattern
+In object-oriented design, the chain-of-responsibility pattern is a design pattern consisting of a source of command objects and a series of processing objects. Each processing object contains logic that defines the types of command objects that it can handle; the rest are passed to the next processing object in the chain. A mechanism also exists for adding new processing objects to the end of this chain. Thus, the chain of responsibility is an object oriented version of the if ... else if ... else if ....... else ... endif idiom, with the benefit that the condition–action blocks can be dynamically rearranged and reconfigured at runtime. [Credit to wikipedia](https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern)
+
+## Command design pattern
+In object-oriented programming, the command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time. This information includes the method name, the object that owns the method and values for the method parameters. [Credit to wikipedia](https://en.wikipedia.org/wiki/Command_pattern)
+
+## Composite design pattern
+
+
