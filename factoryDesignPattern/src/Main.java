@@ -1,4 +1,9 @@
 public class Main {
+    /*
+    We want to create a villain factory in order to generate villains in encapsulated way. 
+    The factory gets the name of the villain , and returns the new villain that we mentioned.
+    those factories will generate heros and villains
+    */
     public static void main(String[] args) {
         VillainFactory villainFactory = new VillainFactory();
 
