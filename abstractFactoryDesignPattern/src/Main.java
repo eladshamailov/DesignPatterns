@@ -1,4 +1,8 @@
 public class Main {
+    /*
+    We will create an Abstract factory in order to generate villainFactory and heroFactory. 
+    those factories will generate heros and villains.
+    */
     public static void main(String[] args) {
         //creates new Villain factory
         AbstractFactory villainGenerator= FactoryGenerator.factory("villain");
