@@ -42,5 +42,19 @@ A facade is an object that provides a simplified interface to a larger body of c
 ## Factory design pattern
 In class-based programming, the factory method pattern is a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created. This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor. [Credit to wikipedia](https://en.wikipedia.org/wiki/Factory_method_pattern)
 
+## Flyweight design patten
+In computer programming, flyweight is a software design pattern. A flyweight is an object that minimizes memory usage by sharing as much data as possible with other similar objects; it is a way to use objects in large numbers when a simple repeated representation would use an unacceptable amount of memory. Often some parts of the object state can be shared, and it is common practice to hold them in external data structures and pass them to the objects temporarily when they are used. [Credit to wikipedia](https://en.wikipedia.org/wiki/Flyweight_pattern)
+
+## Interpreter design pattern
+In computer programming, the interpreter pattern is a design pattern that specifies how to evaluate sentences in a language. The basic idea is to have a class for each symbol (terminal or nonterminal) in a specialized computer language. The syntax tree of a sentence in the language is an instance of the composite pattern and is used to evaluate (interpret) the sentence for a client. [Credit to wikipedia](https://en.wikipedia.org/wiki/Interpreter_pattern)
+
+## Iterator design pattern
+In object-oriented programming, the iterator pattern is a design pattern in which an iterator is used to traverse a container and access the container's elements. The iterator pattern decouples algorithms from containers; in some cases, algorithms are necessarily container-specific and thus cannot be decoupled.  [Credit to wikipedia](https://en.wikipedia.org/wiki/Iterator_pattern)
+
+## Mediator design pattern
+In software engineering, the mediator pattern defines an object that encapsulates how a set of objects interact. This pattern is considered to be a behavioral pattern due to the way it can alter the program's running behavior. [Credit to wikipedia](https://en.wikipedia.org/wiki/Mediator_pattern)
+
+## Memento Pattern
+The memento pattern is a software design pattern that provides the ability to restore an object to its previous state (undo via rollback). [Credit to wikipedia](https://en.wikipedia.org/wiki/Memento_pattern)
 
 
