@@ -54,7 +54,41 @@ In object-oriented programming, the iterator pattern is a design pattern in whic
 ## Mediator design pattern
 In software engineering, the mediator pattern defines an object that encapsulates how a set of objects interact. This pattern is considered to be a behavioral pattern due to the way it can alter the program's running behavior. [Credit to wikipedia](https://en.wikipedia.org/wiki/Mediator_pattern)
 
-## Memento Pattern
+## Memento design pattern
 The memento pattern is a software design pattern that provides the ability to restore an object to its previous state (undo via rollback). [Credit to wikipedia](https://en.wikipedia.org/wiki/Memento_pattern)
+
+## Observer design pattern
+The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. [Credit to wikipedia](https://en.wikipedia.org/wiki/Observer_pattern)
+
+## Prototype design pattern
+The prototype pattern is a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects. This pattern is used to:
+
+* avoid subclasses of an object creator in the client application, like the factory method pattern does.
+* avoid the inherent cost of creating a new object in the standard way (e.g., using the 'new' keyword) when it is prohibitively expensive for a given application.
+
+To implement the pattern, declare an abstract base class that specifies a pure virtual clone() method. Any class that needs a "polymorphic constructor" capability derives itself from the abstract base class, and implements the clone() operation. [Credit to wikipedia](https://en.wikipedia.org/wiki/Prototype_pattern)
+
+## Proxy design pattern
+In computer programming, the proxy pattern is a software design pattern. A proxy, in its most general form, is a class functioning as an interface to something else. The proxy could interface to anything: a network connection, a large object in memory, a file, or some other resource that is expensive or impossible to duplicate. In short, a proxy is a wrapper or agent object that is being called by the client to access the real serving object behind the scenes. Use of the proxy can simply be forwarding to the real object, or can provide additional logic. In the proxy, extra functionality can be provided, for example caching when operations on the real object are resource intensive, or checking preconditions before operations on the real object are invoked. For the client, usage of a proxy object is similar to using the real object, because both implement the same interface. [Credit to wikipedia](https://en.wikipedia.org/wiki/Proxy_pattern)
+
+## Singleton design pattern
+In software engineering, the singleton pattern is a software design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system. The concept is sometimes generalized to systems that operate more efficiently when only one object exists, or that restrict the instantiation to a certain number of objects. The term comes from the mathematical concept of a singleton. [Credit to wikipedia](https://en.wikipedia.org/wiki/Singleton_pattern)
+
+## State design pattern
+The state pattern is a behavioral software design pattern that implements a state machine in an object-oriented way. With the state pattern, a state machine is implemented by implementing each individual state as a derived class of the state pattern interface, and implementing state transitions by invoking methods defined by the pattern's superclass. [Credit to wikipedia](https://en.wikipedia.org/wiki/State_pattern)
+
+## Strategy design pattern 
+In computer programming, the strategy pattern (also known as the policy pattern) is a behavioral software design pattern that enables selecting an algorithm at runtime. The strategy pattern
+* defines a family of algorithms,
+* encapsulates each algorithm, and
+* makes the algorithms interchangeable within that family.
+
+[Credit to wikipedia](https://en.wikipedia.org/wiki/Strategy_pattern)
+
+## Template design pattern
+In software engineering, the template method pattern is a behavioral design pattern that defines the program skeleton of an algorithm in an operation, deferring some steps to subclasses.It lets one redefine certain steps of an algorithm without changing the algorithm's structure. [Credit to wikipedia](https://en.wikipedia.org/wiki/Template_method_pattern)
+
+## Visitor design pattern
+In object-oriented programming and software engineering, the visitor design pattern is a way of separating an algorithm from an object structure on which it operates. A practical result of this separation is the ability to add new operations to existent object structures without modifying the structures. It is one way to follow the open/closed principle. [Credit to wikipedia](https://en.wikipedia.org/wiki/Visitor_pattern)
 
 
