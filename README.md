@@ -37,6 +37,7 @@ A facade is an object that provides a simplified interface to a larger body of c
 * make the library more readable, for the same reason,
 * reduce dependencies of outside code on the inner workings of a library, since most code uses the facade, thus allowing more flexibility in developing the system,
 * wrap a poorly designed collection of APIs with a single well-designed API.
+
 [Credit to wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
 
 ## Factory design pattern
