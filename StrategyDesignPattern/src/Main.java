@@ -2,14 +2,14 @@ public class Main {
 
     public static void main(String[] args){
         /*
-        We create animal class and Dog,Shark and mouse classes that extend Animal/
+        We create animal class and Dog,Shark and mouse classes that extend Animal
         The Runs insatnce has one function , isRun().
          In the Animal class , we use an instance variable that is a subclass of the Runs interface.
         Animal doesn't care what Runs does , it's just knows we can use it.
          Instead of inheriting an ability through inheritance, the class is composed
          with objects with the right ability
          We are not inheriting abilities , we are using the Runs that has the desired ability.
-        in this way , we can change the behavior at run time
+        in this way , we can change the behavior at run time.
         */
 
         Animal shuki = new Dog("shuki",60,30); //creates new dog
